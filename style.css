@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    background: red;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    margin-left: 0px;
+}
+
+#Middlemenu {
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+
+.nav-item{
+    text-align: center;
+    border-right: 1px solid;
+    padding: 35px;
+}
+
+.overlay {
+    z-index: -1;
+    background-image: url(https://mobicare.co.za/_Webmoduledata/Images/Thumb/R.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    padding: 70px 0;
+    padding-bottom: 100px;
+}
+
+
+
+.pictureGrid {
+    display: flex;
+    width: 100%;
+    height:  100%;
+    justify-content: center;
+}
+
+.picture {
+    padding: 100px;
+    height: 270px;
+    width: 270px;
+}
